@@ -1,0 +1,123 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(131deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 100%);
+    height: 200%;
+}
+
+#first {
+    margin: 20;
+    padding: 10px;
+    text-shadow: 2px 2px 10px rgb(2, 0, 36);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 100;
+}
+
+#second {
+    margin: 5;
+    color: aliceblue;
+}
+
+#third {
+    color: aliceblue;
+    margin: 5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#fourth {
+    color: aliceblue;
+    margin: 5;
+}
+
+span {
+    color: rgb(0, 0, 0);
+    background-color: gold;
+}
+
+#lastSen {
+    color: aliceblue;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*#hr1 {
+    width: 10000000px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}*/
+
+.hr {
+    height: 1px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    color: rgb(162, 0, 0);
+    background-color: lightblue;
+    border-radius: 0%;
+}
+
+label {
+    color: aliceblue;
+}
+
+input {
+    color: rgb(162, 0, 0);
+    background-color: lightblue;
+    border-radius: 0%;
+}
+
+#rate {
+    color: aliceblue
+}
+
+select {
+    background-color: lightblue;
+    color: rgb(162, 0, 0);
+    border-radius: 5px;
+}
+
+#com {
+    background-color: lightblue;
+    color: rgb(162, 0, 0);
+    font-family: inherit;
+    margin-top: 10px;
+}
+
+#writeYourComment {
+    position: relative;
+    top: -20;
+    display: block;
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 7px;
+}
+
+.box {
+    text-align: center;
+    width: 170px;
+    height: 17px;
+    box-shadow: 1px 1px 19px rgba(181, 181, 181, 0.832);
+    background-color: rgb(67, 63, 63);
+    color: aliceblue;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px auto;
+}
+
+ul {
+    align-items: center;
+}
